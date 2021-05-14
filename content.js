@@ -1,6 +1,6 @@
-const badwords = ["fuck","shit"]
+const badwords = ["fuck","shit", "mother fucker", "motherfucker", "rape", "suicide", "chink", "suicidal"]
 for (word of badwords){
-    replaceTextOnPage(word,"BLOCKED")
+    replaceTextOnPage(word,"[Blocked]")
 }
 
 function replaceTextOnPage(from, to){
